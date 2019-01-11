@@ -1,12 +1,12 @@
 {
-  "name": "bitcore-node-zelcash",
-  "description": "Full node with extended capabilities using Bitcore and ZelCash",
+  "name": "bitcore-node-zecmate",
+  "description": "Full node with extended capabilities using Bitcore and Zcash",
   "version": "3.2.0",
   "main": "./index.js",
-  "repository": "git://github.com/TheTrunk/bitcore-node-zelcash.git",
-  "homepage": "https://zel.cash",
+  "repository": "git://github.com/ZECmate/bitcore-node-zecmate.git",
+  "homepage": "https://zecmate.com",
   "bugs": {
-    "url": "https://github.com/TheTrunk/bitcore-node-zelcash/issues"
+    "url": "https://github.com/ZECmate/bitcore-node-zecmate/issues"
   },
   "contributors": [
     {
@@ -33,7 +33,7 @@
       "email": "larry@myhush.org"
     },
     {
-      "name": "TheTrunk",
+      "name": "Tadeas Kmenta",
       "email": "tadeas.kmenta@zel.cash"
     },
     {
@@ -56,8 +56,8 @@
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "tags": [
-    "zelcash",
-    "zelcashd"
+    "zcash",
+    "zcashd"
   ],
   "dependencies": {
     "async": "^2.5.0",

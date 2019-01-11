@@ -1,29 +1,29 @@
-Bitcore Node ZelCash
+Bitcore Node ZECmate
 ============
 
-A ZelCash full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A ZECmate full node for Zcash used for building applications and services with Node.js. A node is extensible and can be configured to run additional services. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Explorer Guide
-### Part 1. Zelcash with extended RPC functionalities
+### Part 1. Zcash with extended RPC functionalities
 ```bash
-wget -qO- https://raw.githubusercontent.com/TheTrunk/bitcore-node-zelcash/master/installZelcashd.sh | bash
+wget -qO- https://raw.githubusercontent.com/ZECmate/bitcore-node-zecmate/master/installZcashd.sh | bash
 ```
-### Part 2. Latest Zelcash insight explorer = bitcore-node-zelcash with insight-api and insight-ui
+### Part 2. Latest ZECmate insight explorer = bitcore-node-zecmate with insight-api and insight-ui
 ```bash
-wget -qO- https://raw.githubusercontent.com/TheTrunk/bitcore-node-zelcash/master/installExplorer.sh | bash
+wget -qO- https://raw.githubusercontent.com/ZECmate/bitcore-node-zecmate/master/installExplorer.sh | bash
 ```
 ## Install
 
 ```bash
-git clone https://github.com/TheTrunk/bitcore-node-zelcash.git
-cd bitcore-node-zelcash
+git clone https://github.com/ZECmate/bitcore-node-zecmate.git
+cd bitcore-node-zecmate
 npm install
 bitcore-node start
 ```
 
 ## Prerequisites
 
-- GNU/Linux x86_32/x86_64, or OSX 64bit *(for zelcashd distributed binaries)*
+- GNU/Linux x86_32/x86_64, or OSX 64bit *(for zcashd distributed binaries)*
 - Node.js v0.10, v0.12 or v4
 - ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
 - ~30GB of disk storage
@@ -46,8 +46,8 @@ This will create a directory with configuration files for your node and install 
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/TheTrunk/insight-api)
-- [Insight UI](https://github.com/TheTrunk/insight-ui)
+- [Insight API](https://github.com/ZECmate/insight-api)
+- [Insight UI](https://github.com/ZECmate/insight-ui)
 
 ## Documentation
 
