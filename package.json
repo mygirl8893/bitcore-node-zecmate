@@ -69,7 +69,7 @@
     "errno": "^0.1.4",
     "express": "^4.16.3",
     "liftoff": "^2.2.0",
-    "lru-cache": "^4.0.1",
+    "lru-cache": "^5.1.1",
     "mkdirp": "0.5.1",
     "npm": "^2.14.1",
     "path-is-absolute": "^1.0.0",
